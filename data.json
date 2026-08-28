@@ -1,0 +1,9 @@
+{
+  "message": "Hello from the initial API version",
+  "version": 1
+}
+{
+  "message": "Hello from the UPDATED API version",
+  "version": 2,
+  "status": "active"
+}
