@@ -15,6 +15,7 @@ def submit_todo_item():
         "itemDescription": item_description
     }
     todos_collection.insert_one(todo_doc)
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 @app.route("/todo")
@@ -24,5 +25,9 @@ def todo():
 if __name__ == "__main__":
     app.run(debug=True)
 =======
+    return jsonify({"status": "success", "item": item_name}), 201
+>>>>>>> f1f4f3d (Add /submittodoitem backend route storing data in MongoDB)
+=======
+
     return jsonify({"status": "success", "item": item_name}), 201
 >>>>>>> f1f4f3d (Add /submittodoitem backend route storing data in MongoDB)
